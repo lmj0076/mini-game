@@ -1,7 +1,10 @@
 from bangtal import *
 from enum import Enum
 from yahtzee import *
+from ctypes import *
 
+windll.LoadLibrary(
+    'Bangtal.dll')
 
 setGameOption(GameOption.INVENTORY_BUTTON, 0)
 setGameOption(GameOption.ROOM_TITLE, 0)
