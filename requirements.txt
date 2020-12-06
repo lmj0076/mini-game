@@ -1,0 +1,2 @@
+bangtal==0.24
+pyhtzee==1.2.7
